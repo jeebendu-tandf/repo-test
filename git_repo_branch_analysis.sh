@@ -10,7 +10,7 @@
 # - Outputs a timestamped CSV report with a summary section.
 # - Includes FULL commit ID for safe branch recovery.
 
-ENV_BRANCHES=(master)
+ENV_BRANCHES=(dev qa prod main)
 
 set -euo pipefail
 
